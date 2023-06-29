@@ -9,4 +9,6 @@ EXPOSE 3000
 
 ADD . /app
 
-CMD ["node", "index"]
+ENTRYPOINT [ "node" ]
+
+CMD [ "index" ]
